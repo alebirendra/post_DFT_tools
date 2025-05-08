@@ -49,5 +49,5 @@ Update an existing `vc.in` file by extracting the final relaxed structure (`CELL
 
 ▶️ **Usage**:
 ```bash
-python update_vc_in_from_vc_out.py
+python extract_qe_final_coordinates.py
 ```
