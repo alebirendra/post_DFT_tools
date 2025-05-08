@@ -8,7 +8,7 @@ This repository provides two Python scripts to streamline the extraction and reu
 
 ---
 
-### 1. `extract_energy_sorted.py`
+### 1. `extract_qe_energy.py`
 
 🔍 **Purpose**:  
 Recursively scan all folders and subfolders from the current directory, search for `vc.out` files, extract the final `!    total energy` line, and write the path and energy to a file named `energy.txt`.
@@ -21,7 +21,7 @@ Recursively scan all folders and subfolders from the current directory, search f
 #### 📄 Example Output (`energy.txt`):
 
 
-### 2. `update_vc_in_from_vc_out.py`
+### 2. `extract_qe_final_coordinates.py`
 
 🔄 **Purpose**:  
 Update an existing `vc.in` file by extracting the final relaxed structure (`CELL_PARAMETERS` and `ATOMIC_POSITIONS`) from a completed `vc.out` file and write a new input file `1vc.in`.
